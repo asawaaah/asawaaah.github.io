@@ -1,0 +1,254 @@
+/* universal */
+
+/* SECTION COLORS */
+
+.colors {
+    font-family: Barlow, sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.colors h2 {
+    font-family: Barlow, sans-serif;
+    font-weight:700;
+    font-size: 60px;
+    color:black;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.colors h3 {
+    font-family: Barlow, sans-serif;
+    font-weight:700;
+    font-size: 38px;
+    color:white;
+    padding-left: 25px;
+    line-height: 10px;
+}
+
+.colors h4 {
+    font-family: Barlow, sans-serif;
+    font-weight:400;
+    font-size: 25px;
+    color:white;
+    padding-left: 25px;
+    line-height: 10%;
+}
+
+.colors p {
+    font-family: Barlow, sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    color:white;
+    padding-left: 25px;
+}
+
+.blue,
+.red,
+.green {
+    display: inline-block;
+    min-height: 400px;
+    width: 33%;
+
+}
+
+.blue {
+    background-color: #4BD5E7;
+    position: relative;
+    
+}
+
+.blue-hover {
+    background-color: #1ECBE1;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.blue,
+.blue-hover {
+    border-radius: 15px;
+}
+
+.red {
+    background-color: #CD6584;
+    position: relative;
+    
+}
+
+.red-hover {
+    background-color: #C13E66;
+    position: absolute;
+    bottom: 0%;
+    width: 100%; 
+}
+
+.red,
+.red-hover {
+    border-radius: 15px;
+}
+.green {
+    background-color: #80B283;
+    position: relative;
+}
+
+.green-hover {
+    background-color: #619E64;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.green,
+.green-hover {
+    border-radius: 15px;
+}
+
+.blue-hover,
+.red-hover,
+.green-hover {
+padding-bottom: 30px;
+}
+
+/* FONTS */
+
+h1 {
+    font-size: 80px;
+    font-family: Barlow;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: Barlow;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    font-family: Barlow, serif;
+    font-weight: 400;
+}
+
+li {
+    font-family: Barlow, serif;
+    font-size: 22px;
+}
+
+.fonts {
+    font-size: 18px;
+    margin: 0 10%;
+    font-weight: 400;
+}
+
+.fonts h2 {
+    font-family: Barlow, sans-serif;
+    font-weight:700;
+    font-size: 60px;
+    color:black;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.fonts-intro {
+    display: flex;
+}
+
+
+.barlow,
+.bitter,
+.caveat {
+-webkit-box-shadow: 0px 0px 13px -1px rgba(165,165,165,0.1); 
+box-shadow: 0px 0px 13px -1px rgba(165,165,165,0.2);
+background: #FFFFFF;
+display: inline-block;
+padding-left: 10px;
+flex: 1;
+margin: 0 5px;
+border-radius: 15px;
+cursor: pointer;
+transition: transform 400ms;
+}
+
+.barlow:hover,
+.bitter:hover,
+.caveat:hover {
+transform: translateY(-15px);
+}
+
+
+.barlow {
+    font-family: Barlow, sans-serif;
+}
+
+.barlow h3,
+.bitter h3,
+.caveat h3 {
+    font-size: 38px;
+}
+
+.fonts p.normal {
+    font-weight: 400;
+}
+
+.emphasized p {
+    font-weight: 500;
+}
+
+.fonts p.italic {
+    font-style: italic;
+}
+
+.fonts p.semibold {
+    font-weight: 600;
+}
+
+.fonts p.semibold-italic {
+    font-style:italic;
+    font-weight: 600;
+}
+
+.fonts p.bold {
+    font-style:700;
+}
+
+.bitter {
+    font-family: Bitter, serif;
+}
+
+.caveat {
+        font-family: Caveat, serif;
+}
+
+
+/* TEXT STYLES */
+
+.text-styles {
+    background-color: rgba(249,249,249,0.9);
+    margin: 50px 0;
+}
+
+.text-styles h2 {
+    padding: 30px 0 50px;
+}
+
+.style {
+    margin: 0 10%;
+}
+
+.style h1{
+   line-height: 30px;
+}
+.style h2 {
+    line-height: 5px;
+    padding: 0;
+}
+
+.style p {
+    margin: 0;
+}
+.example {
+    text-align: left;
+}
+
